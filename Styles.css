@@ -1,0 +1,13 @@
+.rainbow{
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+  -webkit-background-clip: text;
+  background-size: 1%;
+  -webkit-text-fill-color: transparent;
+  animation: Rainbow 10s infinite linear;
+}
+
+@keyframes Rainbow{
+    0% {background-size: 1%;}
+    50% {background-size: 50%;}
+    100% {background-size: 1%;}
+}
